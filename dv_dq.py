@@ -80,9 +80,3 @@ if uploaded_file is not None:
         st.write("Please enter either 'Charge' or 'Discharge'.")
 else:
     st.write("Please upload a file.")
-
-        st.download_button("Download", data=csv_data, file_name="filtered_data.csv", mime='text/csv')
-    else:
-        st.write("Please enter either 'Charge' or 'Discharge'.")
-else:
-    st.write("Please upload a file.")
